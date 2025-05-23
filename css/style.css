@@ -618,7 +618,6 @@ main::before {
 
   .section {
     width: calc(100vw - 20px);
-    height: calc(100vh - 65px);
   }
 
   .section__contents {

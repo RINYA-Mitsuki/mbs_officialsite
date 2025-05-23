@@ -5,11 +5,15 @@
       if (window.matchMedia( "(max-width: 768px)" ).matches) {
         //////////// スマホ専用の処理 ////////////
 
-        // アドレスバーを抜いた高さの取得
+        // アドレスバーを抜いた高さに調整
         const windowHeight = $(window).height();
         $(window).on('load resize', function() {
           $('.window').css({
             'height': windowHeight
+          });
+          let noHeaderHeight = windowHeight - 65;
+          $('.section').css({
+            'height': noHeaderHeight,
           });
         });
 
