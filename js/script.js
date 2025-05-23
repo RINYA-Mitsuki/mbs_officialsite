@@ -5,6 +5,14 @@
       if (window.matchMedia( "(max-width: 768px)" ).matches) {
         //////////// スマホ専用の処理 ////////////
 
+        // アドレスバーを抜いた高さの取得
+        const windowHeight = $(window).height();
+        $(window).on('load resize', function() {
+          $('.window').css({
+            'height': windowHeight
+          });
+        });
+
         // 全ページを横並びに展開
         const sections = $('section').toArray();
         const mainFlameWidth = 100;
@@ -69,6 +77,12 @@
         //////////// ここまでスマホ専用の処理 ////////////
       } else {
         //////////// PC専用の処理 ////////////
+
+        $(window).on('load resize', function() {
+          $('.window').css({
+            'height': '100vh'
+          });
+        });
 
         // 全ページを横並びに展開
         const sections = $('section').toArray();
