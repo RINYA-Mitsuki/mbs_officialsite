@@ -200,6 +200,29 @@
       ],
     },
     {
+      title: "鳴る心: 音楽ユニット「天降」2nd Single",
+      date: '20231224',
+      tags: ['Music'], // Tag list: Music, Design, 3D, Other
+      description: '音楽ユニット「天降」での2nd Single。音楽という音のメッセージをいつまでもどこまでも奏で続け、何かを訴えかけ続けていきたいという願いを込めて制作。<br>制作期間は大体2ヶ月程度。使用ツールはCubase。',
+      thumbnail: 'img/works/works_music_narukokoro.jpg',
+      videoValue: 1, // 0: thumbnail流用 1: YouTube動画埋め込み
+      video: 'bp0WTuj6okY', // YouTube動画ID
+      links: [
+        {
+          tag: 'x',
+          url: 'https://x.com/amaori_official/status/1738879266606235872',
+        },
+        {
+          tag: 'youtube',
+          url: 'https://www.youtube.com/watch?v=bp0WTuj6okY',
+        },
+        {
+          tag: 'soundcloud',
+          url: 'https://soundcloud.com/amaori-official/narukokoro',
+        },
+      ],
+    },
+    {
       title: "知り合いの個人用名刺デザイン",
       date: '20230905',
       tags: ['Design'], // Tag list: Music, Design, 3D, Other
@@ -279,6 +302,29 @@
       ],
     },
     {
+      title: "存在証明: 音楽ユニット「天降」1st Single",
+      date: '20220212',
+      tags: ['Music'], // Tag list: Music, Design, 3D, Other
+      description: 'ボーカルに<a class="modal__description--reference" href="https://x.com/amatuki_VRChat" target="_blank">雨月れん氏</a>と<a class="modal__description--reference" href="https://x.com/salbam3" target="_blank">オズワルド氏</a>を迎えた音楽ユニット「天降」の1st Single。己の存在を世の中に訴えかけていくような攻撃的な歌詞と曲調が特徴の楽曲になっている。<br>制作期間は大体1ヶ月程度。使用ツールはCubase。',
+      thumbnail: 'img/works/works_music_sonzaisyomei.jpg',
+      videoValue: 1, // 0: thumbnail流用 1: YouTube動画埋め込み
+      video: 'NukEYFTOza8', // YouTube動画ID
+      links: [
+        {
+          tag: 'x',
+          url: 'https://x.com/amaori_official/status/1492455500369170433',
+        },
+        {
+          tag: 'youtube',
+          url: 'https://www.youtube.com/watch?v=NukEYFTOza8',
+        },
+        {
+          tag: 'soundcloud',
+          url: 'https://soundcloud.com/amaori-official/sonzaishomei',
+        },
+      ],
+    },
+    {
       title: "Gochamaze Diversity: BOFXVII出場作品",
       date: '20211009',
       tags: ['Music', 'Other'], // Tag list: Music, Design, 3D, Other
@@ -326,16 +372,16 @@
       video: 'LtwQYE_qnls', // YouTube動画ID
       links: [
         {
-          tag: 'x',
-          url: 'https://x.com/RINYA_P/status/1446810208781565961',
-        },
-        {
           tag: 'youtube',
           url: 'https://youtu.be/LtwQYE_qnls',
         },
         {
           tag: 'soundcloud',
-          url: 'https://soundcloud.com/rinya-p/gochamaze-diversity',
+          url: 'https://soundcloud.com/rinya-p/inner-emotions',
+        },
+        {
+          tag: 'other',
+          url: 'https://vrchat.com/home/world/wrld_68f8bd17-445c-47bd-882f-dc500cfed382',
         },
       ],
     },
