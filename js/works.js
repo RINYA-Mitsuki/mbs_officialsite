@@ -317,7 +317,7 @@
       ],
     },
     {
-      title: "Inner Emotions: VRChatアニメーションライブ用オリジナル楽曲",
+      title: "Inner Emotions: VRChatアニメーションライブ用楽曲",
       date: '20201218',
       tags: ['Music', 'Other'], // Tag list: Music, Design, 3D, Other
       description: '当時のVRChat文化の一つである「パリピ砲」という演出からインスピレーションを受けて作成。図太くてド派手なビームを発射するためだけに制作したため、様々なタイプの頭が悪くなりそうなキックを多用して勢いで突っ走る楽曲となっている。<br>制作期間は総合で2週間程度。使用ツールはそれぞれ、楽曲はCubase、アニメーションライブはUnity。',
