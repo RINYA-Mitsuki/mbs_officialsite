@@ -230,6 +230,29 @@
       ],
     },
     {
+      title: "聞きたかねぇよ feat.初音ミク: オリジナル楽曲",
+      date: '20230405',
+      tags: ['Music', 'Other'], // Tag list: Music, Design, 3D, Other
+      description: 'テーマは「夢を追い続ける事を諦められない大人」、つまり自分自身である。ギターとピアノに少しのパーカッションだけの単調な構成にぶっきらぼうな内容の歌詞を乗せて、己の静かな叫びを表現。イラストは知り合いに依頼し、映像は自ら制作した。<br>制作期間は総合で3週間程度。使用ツールはそれぞれ、楽曲はCubase、映像はAfter Effects、Illustrator。',
+      thumbnail: 'img/works/works_music_kikitakaneeyo.jpg',
+      videoValue: 1, // 0: thumbnail流用 1: YouTube動画埋め込み
+      video: '-3hC9w1fRgo', // YouTube動画ID（watch?v=の後ろ）
+      links: [
+        {
+          tag: 'x',
+          url: 'https://x.com/RINYA_P/status/1643569479761399809',
+        },
+        {
+          tag: 'youtube',
+          url: 'https://youtu.be/-3hC9w1fRgo',
+        },
+        {
+          tag: 'soundcloud',
+          url: 'https://soundcloud.com/rinya-p/kikitakaneeyo',
+        },
+      ],
+    },
+    {
       title: "知り合いの個人用名刺デザイン",
       date: '20221207',
       tags: ['Design'], // Tag list: Music, Design, 3D, Other
@@ -271,6 +294,44 @@
         {
           tag: 'youtube',
           url: 'https://youtu.be/46UtfP8hISw?si=z5vbYHkp_UBmzlEZ',
+        },
+        {
+          tag: 'soundcloud',
+          url: 'https://soundcloud.com/rinya-p/gochamaze-diversity',
+        },
+      ],
+    },
+    {
+      title: "Invitation to the Mirage: VRChat内イベント宣伝用楽曲",
+      date: '20201015',
+      tags: ['Music', 'Other'], // Tag list: Music, Design, 3D, Other
+      description: 'VRChat内BAR風イベントの宣伝用に制作。ダークでディープな雰囲気に高級感を併せ持つような雰囲気に合わせ、映像も自ら撮影し制作。（イベント自体は今現在は行っていません。）<br>制作期間は総合で一週間程度。使用ツールはそれぞれ、楽曲はCubase、映像はAfter Effects、撮影はVRChat内。',
+      thumbnail: 'img/works/works_music_mirage.jpg',
+      videoValue: 1, // 0: thumbnail流用 1: YouTube動画埋め込み
+      video: 'Z4qw1aMXGkY', // YouTube動画ID
+      links: [
+        {
+          tag: 'youtube',
+          url: 'https://youtu.be/Z4qw1aMXGkY',
+        },
+      ],
+    },
+    {
+      title: "Inner Emotions: VRChatアニメーションライブ用オリジナル楽曲",
+      date: '20201218',
+      tags: ['Music', 'Other'], // Tag list: Music, Design, 3D, Other
+      description: '当時のVRChat文化の一つである「パリピ砲」という演出からインスピレーションを受けて作成。図太くてド派手なビームを発射するためだけに制作したため、様々なタイプの頭が悪くなりそうなキックを多用して勢いで突っ走る楽曲となっている。<br>制作期間は総合で2週間程度。使用ツールはそれぞれ、楽曲はCubase、アニメーションライブはUnity。',
+      thumbnail: 'img/works/works_music_innerEmotions.jpg',
+      videoValue: 1, // 0: thumbnail流用 1: YouTube動画埋め込み
+      video: 'LtwQYE_qnls', // YouTube動画ID
+      links: [
+        {
+          tag: 'x',
+          url: 'https://x.com/RINYA_P/status/1446810208781565961',
+        },
+        {
+          tag: 'youtube',
+          url: 'https://youtu.be/LtwQYE_qnls',
         },
         {
           tag: 'soundcloud',
