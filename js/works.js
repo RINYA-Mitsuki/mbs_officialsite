@@ -3,6 +3,21 @@
   // 上から新しい順で並べる
   const works = [
     {
+      title: "Mitsuboshi_Studio: Webサイト制作",
+      date: '20250407',
+      tags: ['Design, Other'], // Music, Design, 3D, Other
+      description: '当サイトである。Wedデザインスクールの卒業制作として制作。ウィンドウの中にまた新たな端末があるようなデザインを採用し、「枠」をテーマとして型に囚われない動きを目指した。<br>制作期間は一ヶ月程度、使用ツールはFigma、VS Code、使用言語はHTML、CSS、Javascript。',
+      thumbnail: 'img/works/works_other_mypage.jpg',
+      videoValue: 0, // 0: thumbnail流用 1: YouTube動画埋め込み
+      video: '', // YouTube動画ID（watch?v=の後ろ）
+      links: [ // x, youtube, soundcloud, shop, other
+        {
+          tag: 'other',
+          url: 'https://mitsuboshi.studio/'
+        },
+      ],
+    },
+    {
       title: "VRC撃剣部: VRChatグループロゴデザイン",
       date: '20250407',
       tags: ['Design'], // Music, Design, 3D, Other

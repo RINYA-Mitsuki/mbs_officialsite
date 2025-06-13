@@ -427,20 +427,20 @@
       const asset = $(this);
       const src = asset.attr('src') || asset.attr('href');
       if (src) {
-      const img = new Image();
-      img.onload = img.onerror = function() {
-        loadedAssets++;
-        const progress = (loadedAssets / totalAssets) * 100;
-        const adjustedProgress = progress * 0.25; // バーの長さを4分の1にする
-        $loadingBar.css('width', `${adjustedProgress}%`);
-        if (loadedAssets === totalAssets) {
-        loadingComplete = true;
-        if (timeElapsed) closeLoading(); // 4秒経過後に発火
-        }
-      };
-      img.src = src;
+        const img = new Image();
+        img.onload = img.onerror = function() {
+          loadedAssets++;
+          const progress = (loadedAssets / totalAssets) * 100;
+          const adjustedProgress = progress * 0.25; // バーの長さを4分の1にする
+          $loadingBar.css('width', `${adjustedProgress}%`);
+          if (loadedAssets === totalAssets) {
+            loadingComplete = true;
+            if (timeElapsed) closeLoading(); // 4秒経過後に発火
+          }
+        };
+        img.src = src;
       } else {
-      loadedAssets++;
+        loadedAssets++;
       }
     });
     // 最短2.5秒で100%になるようにするためのシミュレーション
@@ -448,9 +448,9 @@
       simulatedProgress += 0.4; // 0.01秒ごとに0.4%進行
       $loadingBar.css('width', `${simulatedProgress}%`);
       if (simulatedProgress >= 100) {
-      clearInterval(interval);
-      timeElapsed = true;
-      if (loadingComplete) closeLoading(); // 全アセット読み込み後に発火
+        clearInterval(interval);
+        timeElapsed = true;
+        if (loadingComplete) closeLoading(); // 全アセット読み込み後に発火
       }
     }, 10);
 
