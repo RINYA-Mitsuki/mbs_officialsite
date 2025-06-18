@@ -97,7 +97,7 @@
       title: "自分用名刺デザイン",
       date: '20250101',
       tags: ['Design'], // Music, Design, 3D, Other
-      description: '自分で使用する名刺として制作。個人的に好きな色である緑の台紙で、文字やその他の要素は全て白顔料の箔押し想定でシンプルなデザインとした。<br>制作期間は2日。使用ツールはPhotoshop及びIllustrator。',
+      description: '自分で使用する名刺として制作。個人的に好きな色である緑の台紙に、文字やその他の要素は全て白顔料の箔押し想定でシンプルなデザインとした。<br>制作期間は2日。使用ツールはIllustrator。印刷は個人的にお気に入りの<a class="modal__description--reference" href="https://haku-asadaya.com/" target="_blank">あさだ屋</a>さんに依頼。',
       thumbnail: 'img/works/works_design_namecardMy.jpg',
       videoValue: 0, // 0: thumbnail流用 1: YouTube動画埋め込み
       video: '', // YouTube動画ID（watch?v=の後ろ）
