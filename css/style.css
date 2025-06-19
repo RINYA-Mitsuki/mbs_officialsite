@@ -1234,6 +1234,22 @@ works
   line-height: 1;
 }
 
+.works__item--past {
+  aspect-ratio: 16/9;
+  width: 320px;
+}
+
+.works__item--pastText {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: var(--myBackgroundWhite, #EEE);
+  font-family: "Noto Serif", serif;
+  font-size: 2rem;
+  background-color: #001935;;
+}
+
 .modal__table {
   position: fixed;
   top: 0;

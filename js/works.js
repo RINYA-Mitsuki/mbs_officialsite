@@ -5,7 +5,7 @@
     {
       title: "Mitsuboshi_Studio: Webサイト制作",
       date: '20250407',
-      tags: ['Design, Other'], // Music, Design, 3D, Other
+      tags: ['Design', 'Other'], // Music, Design, 3D, Other
       description: '当サイトである。Wedデザインスクールの卒業制作として制作。ウィンドウの中にまた新たな端末があるようなデザインを採用し、「枠」をテーマとして型に囚われない動きを目指した。<br>制作期間は一ヶ月程度、使用ツールはFigma、VS Code、使用言語はHTML、CSS、Javascript。',
       thumbnail: 'img/works/works_other_mypage.jpg',
       videoValue: 0, // 0: thumbnail流用 1: YouTube動画埋め込み
@@ -550,7 +550,7 @@
           </div>
         </div>
       `
-      // works__table内に追加
+      // 各table内に要素を追加
       $('.works__table').append(itemHtml);
       $('.modal__table').append(modalHtml);
 
@@ -560,6 +560,27 @@
 
       worksItemNumber += 1;
     });
+    // works__tableの最後にTumblrへのリンクを追加
+    const tumblrHtml = `
+      <li class="works__item works__itemNumber--xxx tag__music tag__design tag__3d tag__other">
+        <a href="https://mitsuki-hotta.tumblr.com/" target="_blank">
+          <div class="works__item--box">
+            <div class="works__item--past">
+              <p class="works__item--pastText">更に過去の作品集<br>Tumblrへ</p>
+            </div>
+            <p class="works__item--title">過去作品集: Tumblr(外部サイト)へ</p>
+            <div class="works__item--overlay">
+              <div class="works__item--overlayBg"></div>
+            </div>
+            <div class="parentheses parentheses--1"></div>
+            <div class="parentheses parentheses--2"></div>
+            <div class="parentheses parentheses--3"></div>
+            <div class="parentheses parentheses--4"></div>
+          </div>
+        </a>
+      </li>
+    `
+    $('.works__table').append(tumblrHtml);
   }
 
   $(function(){
