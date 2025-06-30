@@ -1346,6 +1346,12 @@ works
   word-break: break-all;
 }
 
+.modal__box--subInfo {
+  align-self: stretch;
+  color: var(--myWhite, #DDD);
+  text-align: center;
+}
+
 .modal__description--reference {
   text-decoration: underline;
   color: var(--myBgGreen);

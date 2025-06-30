@@ -3,6 +3,25 @@
   // 上から新しい順で並べる
   const works = [
     {
+      title: "VTuber魔王チロルニア様: イベント用3D空間制作",
+      date: '20250628',
+      tags: ['3D'], // Music, Design, 3D, Other
+      description: 'VTuberの<a class="modal__description--reference" href="https://x.com/devil_chiroru_v" target="_blank">魔王チロルニア</a>様から依頼をいただき制作。テーマカラーの水色を全面にあしらったメイド喫茶をイメージした空間で、魔王にふさわしい黄金の玉座がステージ上に鎮座している。<br>制作期間は総合で1ヶ月程度。使用ツールはBlender、Substance 3D Painter、Unity。',
+      thumbnail: 'img/works/works_3d_chirolnia.jpg',
+      videoValue: 0, // 0: thumbnail流用 1: YouTube動画埋め込み
+      video: '', // YouTube動画ID（watch?v=の後ろ）
+      links: [ // x, youtube, soundcloud, shop, other
+        {
+          tag: 'x',
+          url: 'https://x.com/RINYA_P/status/1939190113713758510',
+        },
+        {
+          tag: 'other',
+          url: 'https://vrchat.com/home/world/wrld_69ad885e-effd-42a9-8bc7-af14af00577d/info',
+        },
+      ],
+    },
+    {
       title: "Mitsuboshi_Studio: Webサイト制作",
       date: '20250407',
       tags: ['Design', 'Other'], // Music, Design, 3D, Other
@@ -496,6 +515,10 @@
       const videoHtml = work.videoValue === 1 ?
       `<div id="yt-${work.video}" class="youtube-player" data-video-id="${work.video}"></div>` :
       `<img class="modal__box--thumbnail" src="${work.thumbnail}" alt="">`;
+      // 制作日とジャンルを取得してHTMLを作成
+      const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+      const month = monthNames[parseInt(work.date.slice(4, 6), 10) - 1];
+      const subInfoHtml = `${work.date.slice(0, 4)} ${month} - ${work.tags.map(subTag => ` ${subTag}`).join(',')}`;
       // リンクを取得してアイコンリストHTMLを作成
       const linksHtml = work.links.
       map(link => `<a class="modal__box--link" href="${link.url}" target="_blank"><img class="modal__box--linkIcon" src="img/icon_${link.tag}.svg" alt="${link.tag}"></a>`).join('');
@@ -532,6 +555,9 @@
               <div class="modal__box--links">
                 ${linksHtml}
               </div>
+              <p class="modal__box--subInfo">
+                ${subInfoHtml}
+              </p>
               <div class="parentheses parentheses--1"></div>
               <div class="parentheses parentheses--2"></div>
               <div class="parentheses parentheses--3"></div>
