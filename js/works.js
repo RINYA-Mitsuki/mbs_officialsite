@@ -32,7 +32,7 @@
       links: [ // x, youtube, soundcloud, shop, other
         {
           tag: 'other',
-          url: 'https://mitsuboshi.studio/'
+          url: 'https://mitsuboshi.studio/',
         },
       ],
     },
