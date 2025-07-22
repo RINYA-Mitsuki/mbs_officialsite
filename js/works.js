@@ -3,6 +3,29 @@
   // 上から新しい順で並べる
   const works = [
     {
+      title: "Via Memoriae: COEGTS2025 合作描き下ろし楽曲",
+      date: '20250721',
+      tags: ['Music'], // Music, Design, 3D, Other
+      description: '音楽ゲームosu!taikoの大会COEGTS2025にて予選課題曲の1つとして、<a class="modal__description--reference" href="https://x.com/Part_Lerts" target="_blank">ptar124</a>さんと<a class="modal__description--reference" href="https://x.com/MediumKuroooo" target="_blank">Medium</a>とボクの3人で制作。表で鳴っているリードギターや歪んだリズムギターの一部を主に担当。すべて打ち込みでありながらチョーキングやハーモニクス等の様々な奏法を取り入れ、実物のギターを実際に弾いているかのような調整を多数取り入れた。<br>制作期間はボク個人の実働時間的には総合で1週間程度、使用ツールはCubase。',
+      thumbnail: 'img/works/works_music_viamemoriae.jpg',
+      videoValue: 1, // 0: thumbnail流用 1: YouTube動画埋め込み
+      video: 'tFLRlvuc0po', // YouTube動画ID（watch?v=の後ろ）
+      links: [ // x, youtube, soundcloud, shop, other
+        {
+          tag: 'x',
+          url: 'https://x.com/staff_gts/status/1946989200626090205',
+        },
+        {
+          tag: 'youtube',
+          url: 'https://youtu.be/1tq_pK80ypg?si=tC3pAV7iA89z5DOH',
+        },
+        {
+          tag: 'soundcloud',
+          url: 'https://soundcloud.com/part-lerts/via-memoriae',
+        },
+      ],
+    },
+    {
       title: "VTuber魔王チロルニア様: イベント用3D空間制作",
       date: '20250628',
       tags: ['3D'], // Music, Design, 3D, Other
@@ -55,7 +78,7 @@
       title: "Siegfried: EGTS2025 描き下ろし楽曲",
       date: '20250310',
       tags: ['Music'], // Music, Design, 3D, Other
-      description: '音楽ゲームosu!taikoの非公式大会EGTS2025にて課題曲の1つとして制作。BPM270という圧倒的なスピードと激しいメタルギター、更には現実では再現不可能な怒涛のドラムで、神話上の人物であるジークフリートの激しい戦いを表現。<br>制作期間は3週間程度、使用ツールはCubase。',
+      description: '音楽ゲームosu!taikoの大会EGTS2025にて課題曲の1つとして制作。BPM270という圧倒的なスピードと激しいメタルギター、更には現実では再現不可能な怒涛のドラムで、神話上の人物であるジークフリートの激しい戦いを表現。<br>制作期間は3週間程度、使用ツールはCubase。',
       thumbnail: 'img/works/works_music_siegfried.jpg',
       videoValue: 1, // 0: thumbnail流用 1: YouTube動画埋め込み
       video: 'nWo23Jhb8n4', // YouTube動画ID（watch?v=の後ろ）
