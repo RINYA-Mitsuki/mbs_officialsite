@@ -3,6 +3,48 @@
   // 上から新しい順で並べる
   const works = [
     {
+      title: "Rain Rain For All: MV制作",
+      date: '20250902',
+      tags: ['Other'], // Music, Design, 3D, Other
+      description: '2025年の夏から秋にかけて開催のBMSのイベント「BOF21」に出場した楽曲の<a class="modal__description--reference" href="https://w.atwiki.jp/laser_bm/pages/69.html#id_b71b16a5" target="_blank">BGA</a>として制作。<a class="modal__description--reference" href="https://w.atwiki.jp/laser_bm/pages/69.html#id_b71b16a5" target="_blank">春雨</a>氏の可愛いイラストと併せ、日常というキャンバスに雨という絵の具で淡い彩りを乗せていくようなイメージを込めた。<br>制作期間は1ヶ月程度。使用ツールはAfter Effects及びMidjourney。',
+      thumbnail: 'img/works/works_other_rainrain.jpg',
+      videoValue: 1, // 0: thumbnail流用 1: YouTube動画埋め込み
+      video: 'IvSYEjDP5pA', // YouTube動画ID（watch?v=の後ろ）
+      links: [ // x, youtube, soundcloud, shop, other
+        {
+          tag: 'x',
+          url: 'https://x.com/RINYA_P/status/1962806666682138831',
+        },
+        {
+          tag: 'youtube',
+          url: 'https://youtu.be/IvSYEjDP5pA?si=kh7xNWRjDw12N5K5',
+        },
+      ],
+    },
+    {
+      title: "Quiet Luxe: VRChat想定アセット",
+      date: '20250801',
+      tags: ['3D'], // Music, Design, 3D, Other
+      description: 'VRChatのワールド用としてBOOTHにて販売する目的で個人的に制作。こぢんまりとしつつ温かみと高級感を両立させた地下空間で、曲木細工をテーマとした家具やオブジェを多数取り揃えている。<br>制作期間は総合で1ヶ月程度。使用ツールはBlender、Substance 3D Painter、Unity。',
+      thumbnail: 'img/works/works_3d_quietluxe.jpg',
+      videoValue: 0, // 0: thumbnail流用 1: YouTube動画埋め込み
+      video: '', // YouTube動画ID（watch?v=の後ろ）
+      links: [ // x, youtube, soundcloud, shop, other
+        {
+          tag: 'x',
+          url: 'https://x.com/RINYA_P/status/1953669323278758313',
+        },
+        {
+          tag: 'shop',
+          url: 'https://rinya-p.booth.pm/items/7243479',
+        },
+        {
+          tag: 'other',
+          url: 'https://vrchat.com/home/world/wrld_6667907a-f335-4de2-9195-45d3768d123c/info',
+        },
+      ],
+    },
+    {
       title: "Via Memoriae: COEGTS2025 合作描き下ろし楽曲",
       date: '20250721',
       tags: ['Music'], // Music, Design, 3D, Other
@@ -188,7 +230,7 @@
       title: "Burning×Warning: MV制作",
       date: '20241013',
       tags: ['Other'], // Music, Design, 3D, Other
-      description: '2024年10月に開催されたBMSのイベント「BOF:TT」に出場した楽曲の<a class="modal__description--reference" href="https://w.atwiki.jp/laser_bm/pages/69.html#id_b71b16a5" target="_blank">BGA</a>として制作。楽しげでハツラツとした曲調に合わせたアニメーションの中で、歌詞に含まれた切なさをいい塩梅で表現。<br>制作期間は2週間程度。使用ツールはAfter Effects及びMidjourney。',
+      description: '2024年10月開催のBMSのイベント「BOF:TT」に出場した楽曲の<a class="modal__description--reference" href="https://w.atwiki.jp/laser_bm/pages/69.html#id_b71b16a5" target="_blank">BGA</a>として制作。楽しげでハツラツとした曲調に合わせたアニメーションの中で、歌詞に含まれた切なさをいい塩梅で表現。<br>制作期間は2週間程度。使用ツールはAfter Effects及びMidjourney。',
       thumbnail: 'img/works/works_other_burning.jpg',
       videoValue: 1, // 0: thumbnail流用 1: YouTube動画埋め込み
       video: 'flesyxpz-kw', // YouTube動画ID（watch?v=の後ろ）
