@@ -387,7 +387,7 @@
       date: '20221217',
       tags: ['3D'], // Music, Design, 3D, Other
       description: 'VRChatのワールド用としてBOOTHにて販売する目的で個人的に制作。3階建てであり、最上階が玄関で、最下層が水没している斬新なデザインを採用。別荘やコテージのような雰囲気に重きを置いた。<br>制作期間は総合で3ヶ月程度。使用ツールはBlender、Substance 3D Painter、Unity。',
-      thumbnail: 'img/works/works_3d_backcountry.jpg',
+      thumbnail: 'img/works/works_3d_villainbackcountry.jpg',
       videoValue: 0, // 0: thumbnail流用 1: YouTube動画埋め込み
       video: '', // YouTube動画ID（watch?v=の後ろ）
       links: [ // x, youtube, soundcloud, shop, other
