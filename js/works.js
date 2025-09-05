@@ -6,7 +6,7 @@
       title: "Rain Rain For All: MV制作",
       date: '20250902',
       tags: ['Other'], // Music, Design, 3D, Other
-      description: '2025年の夏から秋にかけて開催のBMSのイベント「BOF21」に出場した楽曲の<a class="modal__description--reference" href="https://w.atwiki.jp/laser_bm/pages/69.html#id_b71b16a5" target="_blank">BGA</a>として制作。<a class="modal__description--reference" href="https://w.atwiki.jp/laser_bm/pages/69.html#id_b71b16a5" target="_blank">春雨</a>氏の可愛いイラストと併せ、日常というキャンバスに雨という絵の具で淡い彩りを乗せていくようなイメージを込めた。<br>制作期間は1ヶ月程度。使用ツールはAfter Effects及びMidjourney。',
+      description: '2025年の夏から秋にかけて開催のBMSのイベント「BOF21」に出場した楽曲の<a class="modal__description--reference" href="https://w.atwiki.jp/laser_bm/pages/69.html#id_b71b16a5" target="_blank">BGA</a>として制作。<a class="modal__description--reference" href="https://w.atwiki.jp/laser_bm/pages/69.html#id_b71b16a5" target="_blank">春雨</a>氏の可愛いイラストと併せ、日常というキャンバスに雨という絵の具で淡い彩りを乗せていくようなイメージを込めた。<br>制作期間は1ヶ月程度。使用ツールはAfter Effects、Blender、及びMidjourney。',
       thumbnail: 'img/works/works_other_rainrain.jpg',
       videoValue: 1, // 0: thumbnail流用 1: YouTube動画埋め込み
       video: 'IvSYEjDP5pA', // YouTube動画ID（watch?v=の後ろ）
