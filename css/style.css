@@ -1968,3 +1968,15 @@ option
 .text__bold {
   font-weight: 700;
 }
+
+.price__item li p.price__notice {
+  color: gray;
+  font-size: 1.4rem;
+}
+
+/*打ち消し線*/
+.strikethrough {
+  color: gray;
+  text-decoration: line-through;
+  text-decoration-color: var(--myBlack, #222);
+}
