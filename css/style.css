@@ -1793,7 +1793,7 @@ contact
   }
 
   .price__item {
-    max-width: 250px;
+    max-width: 300px;
     width: 110%;
     gap: 3px;
   }
@@ -1979,4 +1979,10 @@ option
   color: gray;
   text-decoration: line-through;
   text-decoration-color: var(--myBlack, #222);
+}
+
+@media screen and (max-width: 768px) {
+  .price__item li p.price__notice {
+    font-size: 1.2rem;
+  }
 }
