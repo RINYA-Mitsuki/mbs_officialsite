@@ -3,6 +3,29 @@
   // 上から新しい順で並べる
   const works = [
     {
+      title: "Timeless Grotto: VRChat想定アセット",
+      date: '20251101',
+      tags: ['3D'], // Music, Design, 3D, Other
+      description: 'VRChatのワールド用としてBOOTHにて販売する目的で個人的に制作。コンクリートの冷たさや静かさを意識した空間で、あらゆる場所に深めのベベル感をかけることで人の手が加わっている感を演出している。<br>制作期間は総合で1ヶ月程度。使用ツールはBlender、Substance 3D Painter、Unity。',
+      thumbnail: 'img/works/works_3d_timelessgrotto.jpg',
+      videoValue: 0, // 0: thumbnail流用 1: YouTube動画埋め込み
+      video: '', // YouTube動画ID（watch?v=の後ろ）
+      links: [ // x, youtube, soundcloud, shop, other
+        {
+          tag: 'x',
+          url: 'https://x.com/RINYA_P/status/1984509493435310170',
+        },
+        {
+          tag: 'shop',
+          url: 'https://rinya-p.booth.pm/items/7564573',
+        },
+        {
+          tag: 'other',
+          url: 'https://vrchat.com/home/world/wrld_3cef343d-5d0e-44c7-a8c8-6eaf00c1c22a/info',
+        },
+      ],
+    },
+    {
       title: "Rain Rain For All: MV制作",
       date: '20250902',
       tags: ['Other'], // Music, Design, 3D, Other
