@@ -445,7 +445,7 @@
     });
     // 最短2.5秒で100%になるようにするためのシミュレーション
     const interval = setInterval(function() {
-      simulatedProgress += 0.4; // 0.01秒ごとに0.4%進行
+      simulatedProgress += 0.2; // 0.01秒ごとに0.4%進行
       $loadingBar.css('width', `${simulatedProgress}%`);
       if (simulatedProgress >= 100) {
         clearInterval(interval);

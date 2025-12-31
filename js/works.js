@@ -3,6 +3,52 @@
   // 上から新しい順で並べる
   const works = [
     {
+      title: "Capshel: VRChat想定アセット",
+      date: '20251101',
+      tags: ['3D'], // Music, Design, 3D, Other
+      description: 'VRChatのワールド用としてBOOTHにて販売する目的で個人的に制作。ちょっぴり特別感のある、かなり狭めのシェルター。閉塞感がありながらも温かみを感じる空間で、少人数で集まれる秘密基地のような雰囲気を演出。<br>制作期間は総合で1ヶ月程度。使用ツールはBlender、Substance 3D Painter、Unity。',
+      thumbnail: 'img/works/works_3d_capshel.jpg',
+      videoValue: 0, // 0: thumbnail流用 1: YouTube動画埋め込み
+      video: '', // YouTube動画ID（watch?v=の後ろ）
+      links: [ // x, youtube, soundcloud, shop, other
+        {
+          tag: 'x',
+          url: 'https://x.com/RINYA_P/status/2004072638919201031',
+        },
+        {
+          tag: 'shop',
+          url: 'https://rinya-p.booth.pm/items/7798042',
+        },
+        {
+          tag: 'other',
+          url: 'https://vrchat.com/home/world/wrld_fada1099-5246-4720-8a4e-53991c07ca8f/info',
+        },
+      ],
+    },
+    {
+      title: "渇き、飢えた機獣の如く: バーチャルマーケット2025Winter BGM",
+      date: '20251206',
+      tags: ['Music'], // Music, Design, 3D, Other
+      description: '2025年12月開催の「バーチャルマーケット2025Winter」にて、会場内アトラクションのBGMとして制作。様々な楽曲ジャンルが幾度も入れ替わり、レースの逼迫感やデットヒートの雰囲気を表現した。<br>制作期間は2週間程度、使用ツールはCubase。',
+      thumbnail: 'img/works/works_music_pararealLasVegas.jpg',
+      videoValue: 1, // 0: thumbnail流用 1: YouTube動画埋め込み
+      video: '4CVBBcDKANQ', // YouTube動画ID（watch?v=の後ろ）
+      links: [ // x, youtube, soundcloud, shop, other
+        {
+          tag: 'x',
+          url: 'https://x.com/RINYA_P/status/2003425815124713562',
+        },
+        {
+          tag: 'youtube',
+          url: 'https://www.youtube.com/watch?v=4CVBBcDKANQ',
+        },
+        {
+          tag: 'other',
+          url: 'https://vket.com/2025Winter/world/18',
+        },
+      ],
+    },
+    {
       title: "Timeless Grotto: VRChat想定アセット",
       date: '20251101',
       tags: ['3D'], // Music, Design, 3D, Other
@@ -363,7 +409,7 @@
       links: [ // x, youtube, soundcloud, shop, other
         {
           tag: 'x',
-          url: 'https://x.com/RINYA_P/status/1697061325892129076',
+          url: 'https://x.com/RINYA_P/status/1698719615621496875',
         },
       ],
     },
