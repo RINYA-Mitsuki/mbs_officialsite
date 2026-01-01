@@ -30,7 +30,7 @@
       date: '20251206',
       tags: ['Music'], // Music, Design, 3D, Other
       description: '2025年12月開催の「バーチャルマーケット2025Winter」にて、会場内アトラクションのBGMとして制作。様々な楽曲ジャンルが幾度も入れ替わり、レースの逼迫感やデットヒートの雰囲気を表現した。<br>制作期間は2週間程度、使用ツールはCubase。',
-      thumbnail: 'img/works/works_music_pararealLasVegas.jpg',
+      thumbnail: 'img/works/works_music_vket2025wRacing.jpg',
       videoValue: 1, // 0: thumbnail流用 1: YouTube動画埋め込み
       video: '4CVBBcDKANQ', // YouTube動画ID（watch?v=の後ろ）
       links: [ // x, youtube, soundcloud, shop, other
